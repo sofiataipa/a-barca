@@ -1,7 +1,8 @@
 body
 {
-    font-family: Verdana, sans-serif;
+    font-family: 'Gill Sans', sans-serif;
     font-size: 15px;
+    letter-spacing: 1px;
 }
 
 path 
@@ -11,7 +12,8 @@ path
 
 svg 
 {
-    width: 70%;
+    width: 62%;
+    padding-left: 7%;
 }
 
 textPath a 
@@ -19,12 +21,19 @@ textPath a
     fill: #0000EE;
 }
 
+.serifed
+{
+    font-family: 'Didot', sans-serif;
+    font-style: italic;
+}
+
+
 .centered-wrapper 
 {
     width: 800px;
     margin: 0 auto;
     text-align: center;
-    padding-top: 350px;
+    padding-top: 320px;
 }
 
 .higher 
@@ -39,5 +48,10 @@ textPath a
 
 .barca 
 {
-    padding-left: 31%;
+    padding-left: 29%;
+}
+
+h1
+{
+    font-weight: 400;
 }
