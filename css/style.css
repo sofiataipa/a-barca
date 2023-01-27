@@ -5,6 +5,12 @@ body
     letter-spacing: 1px;
 }
 
+nav{
+    padding:10px 3%;
+    letter-spacing: normal;
+    font-family: Verdana, sans-serif;
+}
+
 path 
 {
     fill: transparent;
