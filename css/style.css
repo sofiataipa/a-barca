@@ -1,0 +1,43 @@
+body
+{
+    font-family: Verdana, sans-serif;
+    font-size: 15px;
+}
+
+path 
+{
+    fill: transparent;
+}
+
+svg 
+{
+    width: 70%;
+}
+
+textPath a 
+{
+    fill: #0000EE;
+}
+
+.centered-wrapper 
+{
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.higher 
+{
+    padding-top: 200px;
+}
+
+.barcaLink 
+{
+    font-size: 30px;
+}
+
+.barca 
+{
+    padding-left: 31%;
+}
