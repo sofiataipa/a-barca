@@ -1,7 +1,7 @@
 body
 {
     font-family: 'Gill Sans', sans-serif;
-    font-size: 15px;
+    font-size: 12px;
     letter-spacing: 1px;
 }
 
@@ -19,8 +19,9 @@ path
 
 svg 
 {
+    transform: scale(1);
     width: 62%;
-    padding-left: 7%;
+    padding-left: 5%;
 }
 
 textPath a 
@@ -37,15 +38,17 @@ textPath a
 
 .centered-wrapper 
 {
-    width: 800px;
+   /* width: 800px; */
     margin: 0 auto;
     text-align: center;
-    padding-top: 320px;
+    padding-top: 20%;
+    /* padding-top: 320px; */
 }
 
 .higher 
 {
-    padding-top: 200px;
+    padding-top: 15%;
+    /* padding-top: 200px; */
 }
 
 .barcaLink 
@@ -55,10 +58,68 @@ textPath a
 
 .barca 
 {
-    padding-left: 29%;
+    padding-left: 32%;
 }
 
 h1
 {
     font-weight: 400;
 }
+
+@media screen and (max-width: 1000px) {
+    svg {
+        transform: scale(1.5);
+        padding: 0;
+        margin-left: 3%;
+        margin-top: 6%;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .centered-wrapper 
+    {
+        padding-top: 30%;
+        /* padding-top: 320px; */
+    }
+    .higher 
+    {
+        padding-top: 15%;
+        /* padding-top: 200px; */
+    }
+    .barca 
+    {
+        padding-left: 20%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    svg {
+        transform: scale(2.2);
+        padding: 0;
+        margin-left: -2%;
+        margin-top: 25%;
+    }
+    
+    h1 {
+        font-size: 20px;
+    }
+    
+    .centered-wrapper 
+    {
+        padding-top: 50%;
+        /* padding-top: 320px; */
+    }
+
+    .higher 
+    {
+        padding-top: 40%;
+        /* padding-top: 200px; */
+    }
+
+    .barca 
+    {
+        padding-left: 0%;
+    }
+}
+
